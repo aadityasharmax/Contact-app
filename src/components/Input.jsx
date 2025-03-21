@@ -12,7 +12,7 @@ const Input = ({ onOpen, filterContacts }) => {
         className="flex flex-grow text-white outline-0 border pr-2 pl-10 text-lg border-white h-10 bg-transparent rounded-lg "
       />
       <BiPlusCircle
-        className="text-white text-4xl cursor-pointer"
+        className="text-white text-6xl cursor-pointer"
         onClick={() => onOpen()}
       />
     </div>
