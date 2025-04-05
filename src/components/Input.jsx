@@ -9,10 +9,10 @@ const Input = ({ onOpen, filterContacts }) => {
       <input
         onChange={filterContacts}
         type="text"
-        className="flex flex-grow text-white outline-0 border pr-2 pl-10 text-lg border-white h-10 bg-transparent rounded-lg "
+        className="flex flex-grow text-white outline-0 border pr-2 pl-10 text-lg border-white h-10 bg-transparent rounded-lg sm:w-[20px]"
       />
       <BiPlusCircle
-        className="text-white text-6xl cursor-pointer"
+        className="text-white text-6xl cursor-pointer min-w-10"
         onClick={() => onOpen()}
       />
     </div>
