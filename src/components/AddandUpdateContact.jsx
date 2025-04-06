@@ -39,7 +39,7 @@ const AddandUpdateContact = ({ isOpen, onClose, isUpdate, contact }) => {
       <Modal isOpen={isOpen} onClose={onClose}>
         <Formik
           validationSchema={contactSchemaValidation}
-          // To show update contact details in update modal
+          
           initialValues={
             isUpdate
               ? {
